@@ -56,13 +56,19 @@ a:hover{
   gap: 2em;
 }
 
-.welcome .left {
+.intro .left {
   display: flex;
   flex-direction: column;
   gap: 10px;
 }
 
-.welcome .right {
+.intro .right {
   flex-shrink: 0;
   width: 50%;
+}
+
+.hero {
+  color: #F9FAF8;
+  font-weight: 900;
+  font-size: 48px;
 }
