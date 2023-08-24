@@ -20,6 +20,7 @@ header {
   font-size: 24px;
   font-weight: 900;
   color: #F9FAF8;
+  justify-content: flex-start;
 }
 
 nav {
@@ -33,6 +34,7 @@ nav ul {
   display: flex;
   list-style: none;
   gap: 2em;
+  justify-content: flex-end;
 }
 
 .secondary,
@@ -201,5 +203,23 @@ main h2 {
 strong {
   font-size: 24px;
   color: #FFF;
+}
+
+input {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  width: 100%;
+  margin-bottom: 1em;
+}
+
+/* FOOTER */
+footer {
+  background-color: #1f2937;
+  color: #FFF;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 2em 0;
 }
 
