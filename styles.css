@@ -46,3 +46,12 @@ a:hover{
   color: #da16af;
 }
 
+/* INTRODUCTION */
+
+.intro {
+  padding: 7em 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
+}
