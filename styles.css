@@ -84,3 +84,7 @@ button {
   cursor: pointer;
   width: 120px;
 }
+
+.intro button {
+  margin-top: 1em;
+}
